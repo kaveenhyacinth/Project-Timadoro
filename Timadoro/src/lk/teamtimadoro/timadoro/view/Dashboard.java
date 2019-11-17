@@ -26,8 +26,9 @@ public class Dashboard extends javax.swing.JFrame {
 
         TaskDashboard = new javax.swing.JTabbedPane();
         pnlMyTask = new javax.swing.JPanel();
+        pnlTimeInfo = new javax.swing.JPanel();
         pnlTimer = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
+        lblTimer = new javax.swing.JLabel();
         pnlTasks = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         pnlMyStatics = new javax.swing.JPanel();
@@ -51,25 +52,40 @@ public class Dashboard extends javax.swing.JFrame {
 
         pnlMyTask.setBackground(new java.awt.Color(255, 255, 255));
 
-        pnlTimer.setBackground(new java.awt.Color(255, 204, 153));
+        pnlTimeInfo.setBackground(new java.awt.Color(255, 204, 153));
 
-        jLabel1.setText("Timer");
+        lblTimer.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
+        lblTimer.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblTimer.setText("00:00");
 
         javax.swing.GroupLayout pnlTimerLayout = new javax.swing.GroupLayout(pnlTimer);
         pnlTimer.setLayout(pnlTimerLayout);
         pnlTimerLayout.setHorizontalGroup(
             pnlTimerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlTimerLayout.createSequentialGroup()
-                .addContainerGap(438, Short.MAX_VALUE)
-                .addComponent(jLabel1)
-                .addGap(428, 428, 428))
+            .addGroup(pnlTimerLayout.createSequentialGroup()
+                .addGap(150, 150, 150)
+                .addComponent(lblTimer)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         pnlTimerLayout.setVerticalGroup(
             pnlTimerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlTimerLayout.createSequentialGroup()
-                .addContainerGap(124, Short.MAX_VALUE)
-                .addComponent(jLabel1)
-                .addGap(119, 119, 119))
+            .addGroup(pnlTimerLayout.createSequentialGroup()
+                .addGap(101, 101, 101)
+                .addComponent(lblTimer, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(102, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout pnlTimeInfoLayout = new javax.swing.GroupLayout(pnlTimeInfo);
+        pnlTimeInfo.setLayout(pnlTimeInfoLayout);
+        pnlTimeInfoLayout.setHorizontalGroup(
+            pnlTimeInfoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlTimeInfoLayout.createSequentialGroup()
+                .addComponent(pnlTimer, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(453, 453, 453))
+        );
+        pnlTimeInfoLayout.setVerticalGroup(
+            pnlTimeInfoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(pnlTimer, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pnlTasks.setBackground(new java.awt.Color(255, 255, 255));
@@ -81,14 +97,14 @@ public class Dashboard extends javax.swing.JFrame {
         pnlTasksLayout.setHorizontalGroup(
             pnlTasksLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlTasksLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap(439, Short.MAX_VALUE)
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(417, 417, 417))
         );
         pnlTasksLayout.setVerticalGroup(
             pnlTasksLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlTasksLayout.createSequentialGroup()
-                .addContainerGap(212, Short.MAX_VALUE)
+                .addContainerGap(193, Short.MAX_VALUE)
                 .addComponent(jLabel2)
                 .addGap(206, 206, 206))
         );
@@ -97,13 +113,13 @@ public class Dashboard extends javax.swing.JFrame {
         pnlMyTask.setLayout(pnlMyTaskLayout);
         pnlMyTaskLayout.setHorizontalGroup(
             pnlMyTaskLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(pnlTimer, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(pnlTimeInfo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addComponent(pnlTasks, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         pnlMyTaskLayout.setVerticalGroup(
             pnlMyTaskLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlMyTaskLayout.createSequentialGroup()
-                .addComponent(pnlTimer, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(pnlTimeInfo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(pnlTasks, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -228,14 +244,15 @@ public class Dashboard extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTabbedPane TaskDashboard;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel lblTimer;
     private javax.swing.JPanel pnlAboutUs;
     private javax.swing.JPanel pnlMyStatics;
     private javax.swing.JPanel pnlMyTask;
     private javax.swing.JPanel pnlNnewWorkspace;
     private javax.swing.JPanel pnlTasks;
+    private javax.swing.JPanel pnlTimeInfo;
     private javax.swing.JPanel pnlTimer;
     private javax.swing.JPanel pnlTopic;
     // End of variables declaration//GEN-END:variables

@@ -1,6 +1,6 @@
 /**
  * 
- * This is the CODE-OF-THE-CONDUCT which is usually known as the COC for the Project Timadoro.
+ * This is the PROJECT POLICY which is for the Project Timadoro.
  * Every team member is entitled and bounded to the following project policy
  * Updated by @KaveenHyacinth with the Copy Request Courtesy of the Team Lead @ShameeraCarrim
  * 
