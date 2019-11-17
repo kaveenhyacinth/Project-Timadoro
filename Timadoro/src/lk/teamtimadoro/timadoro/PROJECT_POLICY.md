@@ -2,20 +2,18 @@
 
 * This is the PROJECT POLICY which is for the Project Timadoro.
 * Every team member is entitled and bounded to the following project policy
-* Updated by @KaveenHyacinth with the Copy Request Courtesy of the Team Lead @ShameeraCarrim
+* Updated by Kaveen Hyacinth with the Copy Request Courtesy of the Team Lead Shameera Carrim
 
 
 ### Team Lead
-@ShameeraCarrim
+Shameera Carrim
   
-### Team Mates
-@KaveenHyacinth
-  
-@KavindaNirushana
-  
-@RishithaAdithya
- 
-@SasaniNimasha
+### Team
+* Kaveen Hyacinth
+* Kavinda Nirushana
+* Rishitha Adithya
+* Sasani Nimasha
+* Shameera Carrim
  
 
 ## PACKAGE DECLARATION
