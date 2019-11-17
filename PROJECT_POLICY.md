@@ -9,12 +9,25 @@
 * Shameera Carrim
   
 ### Members
-* Kaveen Hyacinth
-* Kavinda Nirushana
-* Rishitha Adithya
-* Sasani Nimasha
-* Shameera Carrim
+* KH1010 - Kaveen Hyacinth
+* KN1024 - Kavinda Nirushana
+* RA1017 - Rishitha Adithya
+* SN1018 - Sasani Nimasha
+* SC1021 - Shameera Carrim
  
+## BRANCH DECLARATION
+
+When creating a new branch please use following policy
+
+1.1 Use member code which is in the Members section as a prefix with underscore 
+> As an instance when shameera creating a branch the prefix should be **SC1021_**
+
+1.2 Use an intuitive single word name with a number optional in UPPERCASE
+> AS an instance when creating a freature the branch can be **FEATURE-1** or **FEATURE** etc.
+
+1.3 Use the combination of above 1.1 and 1.2 when creating a new branch
+> When Shameera Carrim is creating a new feature branch it should be like **SC1021_FEATURE-1** etc.
+
 
 ## PACKAGE DECLARATION
 
