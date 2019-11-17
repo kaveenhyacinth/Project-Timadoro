@@ -4,11 +4,11 @@
 * Every team member is entitled and bounded to the following project policy
 * Updated by Kaveen Hyacinth with the Copy Request Courtesy of the Team Lead Shameera Carrim
 
-
+## PROJECT TEAM
 ### Team Lead
-Shameera Carrim
+* Shameera Carrim
   
-### Team
+### Members
 * Kaveen Hyacinth
 * Kavinda Nirushana
 * Rishitha Adithya
@@ -21,7 +21,9 @@ Shameera Carrim
 1. Classes
 
     1.1. `Report` and `Timer` classes inside controller package
+    
     1.2. `Profile`, `Task` and `Workspace` classes inside model package
+    
     1.3. `DataConnector` and `Postman` classes inside gateway package
 
 2. User Interfaces
@@ -29,6 +31,7 @@ Shameera Carrim
     __All the following JFrames and JDialogs should be created inside the view package__
 
     2.1. JForms named `Welcome`, `Profile`, `NewWorkspace`, `AboutUs` and `Dashboard`
+    
     2.2. Dialogs called `AddTask` and `EditPomodoro` for `Dashboard`
 
 
@@ -42,19 +45,30 @@ Shameera Carrim
 ## CONVENTIONS
 
 1. Please stick into following rules when creating variables in classes
+
     1.1. Use cammelCase for Method Declarations
+    
     1.2. Use PascalCase when creating properties/attributes
-    1.2. Always use 'this.' to refer the current class when neccessary
+    
+    1.2. Always use `this.` to refer the current class when neccessary
 
 2. Follow these conventions when naming a frame and its components
-    2.1. Use 'frm' prefix to denote a jframe
-    2.2. Use 'dlg' prefix to denote a jdialog
-    2.3. Use 'pnl' prefix to denote a jpanel
-    2.4. Use 'lbl' prefix to denote a jlabel
-    2.5. Use 'txt' prefix to denote a jtextfield
-    2.6. Use 'btn' prefix to denote a jbutton
-    2.7. Use 'tbd' prefix to denote a jtabbedpane
-    2.8. Use 'tbl' prefix to denote a jtable
+
+    2.1. Use `frm` prefix to denote a _jframe_
+    
+    2.2. Use `dlg` prefix to denote a _jdialog_
+    
+    2.3. Use `pnl` prefix to denote a _jpanel_
+    
+    2.4. Use `lbl` prefix to denote a _jlabel_
+    
+    2.5. Use `txt` prefix to denote a _jtextfield_
+    
+    2.6. Use `btn` prefix to denote a _jbutton_
+    
+    2.7. Use `tbd` prefix to denote a _jtabbedpane_
+    
+    2.8. Use `tbl` prefix to denote a _jtable_
 
     __Apart from these components, please use an intuitive abbr. prefix to denote, when using a new component__
 
@@ -64,10 +78,10 @@ Shameera Carrim
 __Followings uses [width, height] to denote the width and height__
 __Neither JFrames nor JDialogs will be resizable__
 
-1. 'Dashboard' JFrame -> [1000, 700]
-2. Other JFrames -> [700, 500]
-3. JDialog Frames -> [600, 500]
+1. 'Dashboard' JFrame -> __[1000, 700]__
+2. Other JFrames -> __[700, 500]__
+3. JDialog Frames -> __[600, 500]__
 
-COLOR CODES
+## THEAME CODES
 
 > Will be updated soon
