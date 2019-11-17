@@ -1,36 +1,37 @@
-/**
- * 
- * This is the CODE-OF-THE-CONDUCT which is usually known as the COC for the Project Timadoro.
- * Every team member is entitled and bounded to the following project policy
- * Updated by @KaveenHyacinth with the Copy Request Courtesy of the Team Lead @ShameeraCarrim
- * 
- * Team Lead
- *  @ShameeraCarrim
- * 
- * Team Mates
- *  @KaveenHyacinth
- *  @KavindaNirushana
- *  @RishithaAdithya
- *  @SasaniNimasha
- * 
-**/
- 
-/*
+# Project Timadoro - Project Policy
 
-PACKAGE DECLARATION
+* This is the CODE-OF-THE-CONDUCT which is usually known as the COC for the Project Timadoro.
+* Every team member is entitled and bounded to the following project policy
+* Updated by @KaveenHyacinth with the Copy Request Courtesy of the Team Lead @ShameeraCarrim
+
+
+### Team Lead
+@ShameeraCarrim
+  
+### Team Mates
+@KaveenHyacinth
+  
+@KavindaNirushana
+  
+@RishithaAdithya
+ 
+@SasaniNimasha
+ 
+
+## PACKAGE DECLARATION
 
     1. Classes
 
-        1.1. 'Report' and 'Timer' classes inside controller package
-        1.2. 'Profile', 'Task' and 'Workspace' classes inside model package
-        1.3. 'DataConnector' and 'Postman' classes inside gateway package
+        1.1. `Report` and `Timer` classes inside controller package
+        1.2. `Profile`, `Task` and `Workspace` classes inside model package
+        1.3. `DataConnector` and `Postman` classes inside gateway package
 
     2. User Interfaces
 
-        ** All the following JFrames and JDialogs should be created inside the view package
+        *All the following JFrames and JDialogs should be created inside the view package*
 
-        2.1. JForms named 'Welcome', 'Profile', 'NewWorkspace', 'AboutUs' and 'Dashboard'
-        2.2. Dialogs called 'Add Task' and 'Edit Pomodoro' for 'Dashboard'
+        2.1. JForms named `Welcome`, `Profile`, `NewWorkspace`, `AboutUs` and `Dashboard`
+        2.2. Dialogs called `AddTask` and `EditPomodoro` for `Dashboard`
 
 
 GUIDE
