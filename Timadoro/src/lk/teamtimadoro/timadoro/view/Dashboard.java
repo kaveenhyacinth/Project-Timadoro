@@ -56,7 +56,6 @@ public class Dashboard extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Timadoro");
         setName("frmTimadoroDashboard"); // NOI18N
-        setPreferredSize(new java.awt.Dimension(1000, 700));
         setResizable(false);
 
         spltDash.setBorder(null);
@@ -109,6 +108,7 @@ public class Dashboard extends javax.swing.JFrame {
         jButton1.setText("Pomodoro Timer");
         jButton1.setBorder(null);
         jButton1.setBorderPainted(false);
+        jButton1.setFocusPainted(false);
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -120,6 +120,7 @@ public class Dashboard extends javax.swing.JFrame {
         jButton2.setText("My Profile");
         jButton2.setBorder(null);
         jButton2.setBorderPainted(false);
+        jButton2.setFocusPainted(false);
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -131,6 +132,7 @@ public class Dashboard extends javax.swing.JFrame {
         jButton3.setText("My Statistics");
         jButton3.setBorder(null);
         jButton3.setBorderPainted(false);
+        jButton3.setFocusPainted(false);
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -142,6 +144,7 @@ public class Dashboard extends javax.swing.JFrame {
         jButton4.setText("About Timadoro");
         jButton4.setBorder(null);
         jButton4.setBorderPainted(false);
+        jButton4.setFocusPainted(false);
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
