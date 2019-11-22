@@ -218,14 +218,14 @@ public class Dashboard extends javax.swing.JFrame {
         pnlCards.add(pnlPomodoroTimer, "card1");
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel2.setText("TODO: Shameera Carrim");
+        jLabel2.setText("TODO: Kavinda Nirushana");
 
         javax.swing.GroupLayout pnlMyProfileLayout = new javax.swing.GroupLayout(pnlMyProfile);
         pnlMyProfile.setLayout(pnlMyProfileLayout);
         pnlMyProfileLayout.setHorizontalGroup(
             pnlMyProfileLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlMyProfileLayout.createSequentialGroup()
-                .addContainerGap(267, Short.MAX_VALUE)
+                .addContainerGap(255, Short.MAX_VALUE)
                 .addComponent(jLabel2)
                 .addGap(218, 218, 218))
         );
